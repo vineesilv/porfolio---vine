@@ -1,0 +1,27 @@
+:root{--bg:#0f1724;--card:#0b1220;--accent:#8b5cf6;--muted:#94a3b8;--text:#e6eef8}
+*{box-sizing:border-box}html,body{height:100%}body{margin:0;font-family:Inter,Segoe UI,system-ui,-apple-system,Roboto,"Helvetica Neue",Arial;line-height:1.4;background:linear-gradient(180deg,#071126 0%,var(--bg) 100%);color:var(--text);-webkit-font-smoothing:antialiased}
+.container{max-width:880px;margin:0 auto;padding:28px}
+.hero{text-align:center;padding:28px 12px}
+.avatar{width:120px;height:120px;border-radius:50%;object-fit:cover;border:3px solid #ffffff;display:block;margin:0 auto;box-shadow:0 8px 24px rgba(2,6,23,0.6);background-clip:padding-box}
+.hero h1{margin:14px 0 6px;font-size:1.9rem}
+.role{color:var(--muted);margin:0 0 16px}
+.contact-icons{display:flex;gap:16px;justify-content:center;margin:16px 0}
+.contact-icon{color:var(--text);opacity:0.8;transition:opacity 0.2s,color 0.2s}
+.contact-icon:hover{opacity:1;color:var(--accent)}
+.actions{display:flex;gap:10px;justify-content:center}
+.btn{background:linear-gradient(90deg,var(--accent),#06b6d4);color:#051125;padding:10px 16px;border-radius:10px;text-decoration:none;font-weight:600}
+.btn.outline{background:transparent;border:1px solid rgba(255,255,255,0.06);color:var(--text)}
+.projects{margin-top:28px}
+.projects h2,.about h2,.contact h2{margin:8px 0 12px}
+.grid{display:grid;grid-template-columns:1fr;gap:14px}
+.card{background:linear-gradient(180deg,rgba(255,255,255,0.02),transparent);padding:12px;border-radius:12px;border:1px solid rgba(255,255,255,0.03)}
+.card img{width:100%;height:auto;border-radius:8px}
+.card h3{margin:8px 0 6px}
+.card-actions{display:flex;justify-content:flex-end}
+.card-actions a{color:var(--accent);text-decoration:none}
+.about{margin-top:20px}
+.contact{margin-top:20px}
+.linklike{background:none;border:none;color:var(--accent);text-decoration:underline;cursor:pointer;padding:0;font:inherit}
+.small{color:var(--muted)}
+.footer{text-align:center;padding:22px 0;color:var(--muted);font-size:0.9rem}
+@media(min-width:700px){.grid{grid-template-columns:1fr 1fr}.hero h1{font-size:2.6rem}.avatar{width:140px;height:140px}}
