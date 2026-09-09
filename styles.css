@@ -553,6 +553,16 @@ body {
   object-fit: cover;
 }
 
+.company-logo.logo-wide {
+  width: 110px;
+  background: #ffffff;
+  padding: 6px;
+}
+
+.company-logo.logo-wide img {
+  object-fit: contain;
+}
+
 .company-info h3 {
   font-size: 1.3rem;
   margin-bottom: 5px;
